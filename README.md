@@ -1,5 +1,7 @@
 # README #
 [![LICENSE](https://img.shields.io/github/license/polarizeltd/mcms-lite?logo=github&style=for-the-badge)](https://github.com/polarizeltd/mcms-lite/blob/master/LICENSE)
+https://starchart.cc/{username}/{repo}.svg
+[![Analytics](https://starchart.cc/polarizeltd/mcms-lite.svg)]
 
 ### About ###
 
