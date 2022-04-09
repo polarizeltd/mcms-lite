@@ -232,6 +232,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
    */
 
    .wp-block-post-featured-image {
+    border-radius: 5px;
     box-shadow: 1px 1px 25px #808080;
     }
     .wp-block-post-featured-image img {
