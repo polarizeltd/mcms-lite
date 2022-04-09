@@ -1,4 +1,5 @@
 # README #
+[![LICENSE](https://img.shields.io/github/license/polarizeltd/mcms-lite?logo=github&style=for-the-badge)](https://github.com/polarizeltd/mcms-lite/blob/master/LICENSE)
 
 ### About ###
 
