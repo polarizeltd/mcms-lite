@@ -13,7 +13,7 @@ mcms Lite is a lightweight block based Gutenberg, FSE and AMP compatible WordPre
 
 If you would like to contribute code, the list of [open issues](https://github.com/polarizeltd/mcms-lite/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/polarizeltd/mcms-lite/pulls) are preferred when linked to an existing issue.
 
-Contributing is not just for developers! There are many opportunities to help with [testing](#getting-started), triage, discussion, design, building patterns and templates, and more. Please look through [open issues](https://github.com/WordPress/twentytwentytwo/issues), and join in wherever you feel most comfortable.
+Contributing is not just for developers! There are many opportunities to help with [testing](#getting-started), triage, discussion, design, building patterns and templates, and more. Please look through [open issues](https://github.com/polarizeltd/mcms-lite/issues), and join in wherever you feel most comfortable.
 
 ### Getting Started ### 
 
