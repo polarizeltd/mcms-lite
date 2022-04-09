@@ -48,7 +48,7 @@
 					"name": "Foreground and background"
 				},
 				{
-					"colors": [ "#000000", "#3acc6c" ],
+					"colors": [ "#000000", "#7E1946" ],
 					"slug": "foreground-and-secondary",
 					"name": "Foreground and secondary"
 				},
@@ -58,17 +58,17 @@
 					"name": "Foreground and tertiary"
 				},
 				{
-					"colors": [ "#2f2f5b", "#ffffff" ],
+					"colors": [ "#0C6291", "#ffffff" ],
 					"slug": "primary-and-background",
 					"name": "Primary and background"
 				},
 				{
-					"colors": [ "#2f2f5b", "#3acc6c" ],
+					"colors": [ "#0C6291", "#7E1946" ],
 					"slug": "primary-and-secondary",
 					"name": "Primary and secondary"
 				},
 				{
-					"colors": [ "#2f2f5b", "#808080" ],
+					"colors": [ "#0C6291", "#808080" ],
 					"slug": "primary-and-tertiary",
 					"name": "Primary and tertiary"
 				}
@@ -128,12 +128,12 @@
 				},
 				{
 					"slug": "primary",
-					"color": "#2f2f5b",
+					"color": "#0C6291",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#3acc6c",
+					"color": "#7E1946",
 					"name": "Secondary"
 				},
 				{
