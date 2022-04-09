@@ -227,12 +227,82 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
     font-style: italic;
   }
 
+  /*
+   *  Post Featured Image Shadow & Border Radius
+   */
 
+   .wp-block-post-featured-image {
+    box-shadow: 1px 1px 25px #808080;
+    }
+    .wp-block-post-featured-image img {
+        border-radius: 5px;
+    }
 
+  /*
+   *  Formatting Pre, Blockquote, code, kbd, samp, var
+   */
+    pre {
+        margin-bottom: 1rem;
+        padding: 0.75rem;
+        max-width: 100%;
+        overflow: auto;
+        white-space: pre;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        border: #e2e6e7 1px solid;
+        border-left: #e2e6e7 6px solid;
+      }
+      pre {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 90%;
+        color: #373a3c;
+      }
+      blockquote {
+        margin: 1.5rem 0 1.5rem 1rem;
+        padding: 0.75rem 0.75rem 0.75rem 1rem;
+        font-style: italic;
+          border-left:none !Important;
+      }
+      blockquote p:first-letter {
+        padding-left: 2rem;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAO1JREFUeNpi/P//PwM1ARMDlQHL4+cv0MXcgDgciM2AmANKv8djBop6FiQJDSCeBMSuSGKfgZgRh0FY1cMM1APiHUAsiabpHw7DcKoHhSEXEC/GIgkCX4AYPdbwqgcZGAG1ERkcB2JfILYG4o9ocnjVg7wcgiZ5HhrQX3B4F696kAu10BQ04TGMi5B6kAv5kCR/AvEDIBaC8kHh9wEpHDkIqWdBC3Q2IN6HJAZKf6Zo6RCvehY054PSnCASnxVPOsSqnlDW+01izvtN9bw8NAxkxSPPSqQYXA4Uy6/wBP57tGTyn5B6xkFfYgMEGACpdj777TWNXAAAAABJRU5ErkJggg==);
+        background-repeat: no-repeat;
+        background-position: 0px -2px;
+      }
+      code {
+        padding: 0.2rem 0.4rem;
+        font-size: 90%;
+        color: #bd4147;
+        background-color: #f7f7f9;
+        border-radius: 0.25rem;
+      }
+      code, kbd, pre, samp, var {
+        font-family: monospace,monospace;
+        font-size: 1em;
+        white-space: pre-wrap;
+        margin-bottom:1rem;
+      }
+     
+  /*
+   *  Input formatting
+   */
 
+   input[type=text], input[type=email], input[type=url], input[type=password], input[type=search], input[type=number], input[type=tel], input[type=date], input[type=month], input[type=week], input[type=time], input[type=datetime], input[type=datetime-local], input[type=color], .site textarea {
+    border: 1px solid #2f2f5b;
+    border-radius: 0;
+    color: #2f2f5b;
+    line-height: 1.7;
+    padding: 10px;
+    margin: 0 2px;
+    max-width: 100%;
+    }
 
-
-
+  /*
+   *  Adding block column bottom margin
+   */
+    .wp-block-column {margin-bottom:2rem;}
 
 
 
