@@ -1,10 +1,9 @@
 # README #
+[![LICENSE](https://img.shields.io/github/license/polarizeltd/mcms-lite?logo=github&style=for-the-badge)](https://github.com/polarizeltd/mcms-lite/blob/master/LICENSE)
 
 ### About ###
 
 Welcome to the mcms Lite - mcms.io WordPress Theme development repository.
-[![LICENSE](https://img.shields.io/github/license/polarizeltd/mcms-lite?logo=github&style=for-the-badge)](https://github.com/polarizeltd/mcms-lite/blob/master/LICENSE)
-
 ![mcms Lite](https://raw.githubusercontent.com/polarizeltd/mcms-lite/main/screenshot.png)
 
 mcms Lite is a lightweight block based Gutenberg, FSE and AMP compatible WordPress theme.
