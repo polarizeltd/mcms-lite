@@ -305,6 +305,17 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
    */
     .wp-block-column {margin-bottom:2rem;}
 
+  /*
+   *  Formatting tags
+   */
 
-
-
+    .taxonomy-category.wp-block-post-terms.has-small-font-size a {
+        background: var(--wp--preset--color--primary);
+        color: white;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
