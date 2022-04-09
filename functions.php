@@ -113,6 +113,14 @@ function mcms_register_styles() {
 
 add_action( 'wp_enqueue_scripts', 'mcms_register_styles' );
 
+/**
+ * Detect AMP plugin and remove lazy loading (loading=lazy) from the Site logo block until the option is availble in FSE or AMP
+ * https://github.com/ampproject/amp-wp/issues/6942 - WordPress FSE and AMP-WP lazy loads the Gutenberg logo block resulting in an LCP error #6942
+ */
+include_once ABSPATH . 'wp-admin/includes/plugin.php';
+ 
+if ( is_plugin_active( 'amp/amp.php' ) ) {
+    //plugin is activated
 add_filter(
 	'wp_img_tag_add_loading_attr',
 	static function ( $value, $image ) {
@@ -124,3 +132,4 @@ add_filter(
 	10,
 	2
 );
+} 
