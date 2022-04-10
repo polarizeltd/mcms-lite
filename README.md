@@ -34,6 +34,6 @@ To get started with development:
 
 [demo.mcms.io](https://demo.mcms.io)
 
-## Resources
+## Credits
 
 - [Twenty Twenty-Two ](https://github.com/WordPress/twentytwentytwo/)
