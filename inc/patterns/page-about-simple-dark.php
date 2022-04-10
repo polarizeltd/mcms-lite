@@ -3,7 +3,7 @@
  * Simple dark about page
  */
 return array(
-	'title'      => __( 'Simple dark about page', 'mcms' ),
+	'title'      => __( 'Simple dark about page', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"foreground","minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","align":"full","style":{"spacing":{"padding":{"top":"max(1.25rem, 8vw)","right":"max(1.25rem, 8vw)","bottom":"max(1.25rem, 8vw)","left":"max(1.25rem, 8vw)"}}}} -->
 					<div class="wp-block-cover alignfull has-foreground-background-color has-background-dim" style="padding-top:max(1.25rem, 8vw);padding-right:max(1.25rem, 8vw);padding-bottom:max(1.25rem, 8vw);padding-left:max(1.25rem, 8vw);min-height:100vh"><div class="wp-block-cover__inner-container"><!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"overlayMenu":"always"} -->
@@ -15,11 +15,11 @@ return array(
 					<div class="wp-block-column is-vertically-aligned-bottom" style="padding-top:12rem;flex-basis:45%"><!-- wp:site-logo {"width":60} /-->
 
 					<!-- wp:heading {"style":{"typography":{"fontWeight":"300","lineHeight":"1.115","fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
-					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . wp_kses_post( __( 'Roland<br>Farkas', 'mcms' ) ) . '</em></h2>
+					<h2 style="font-size:clamp(3rem, 6vw, 4.5rem);font-weight:300;line-height:1.115"><em>' . wp_kses_post( __( 'Roland<br>Farkas', 'mcms-lite' ) ) . '</em></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.6"}}} -->
-					<p style="line-height:1.6">' . esc_html__( 'Oh hello. My name’s Roland, and I created this template. If you would like to read the documentation, visit docs.mcms.io or if you would like to take a look at my portfolio website, visit rolandfarkas.com', 'mcms' ) . '</p>
+					<p style="line-height:1.6">' . esc_html__( 'Oh hello. My name’s Roland, and I created this template. If you would like to read the documentation, visit docs.mcms.io or if you would like to take a look at my portfolio website, visit rolandfarkas.com', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:spacer {"height":40} -->

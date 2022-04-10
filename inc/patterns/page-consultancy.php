@@ -3,7 +3,7 @@
  * Consultancy Page Demo
  */
 return array(
-	'title'      => __( 'Consultancy Page Demo', 'mcms' ),
+	'title'      => __( 'Consultancy Page Demo', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/happy-adult-lady-with-red-hair-makes-consultancy-c-2021-10-29-15-40-18-utc.jpg","id":2023,"dimRatio":50,"minHeight":700,"align":"full"} -->
     <div class="wp-block-cover alignfull" style="min-height:700px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2023" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/happy-adult-lady-with-red-hair-makes-consultancy-c-2021-10-29-15-40-18-utc.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->

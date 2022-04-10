@@ -3,7 +3,7 @@
  * Header with centered logo block pattern
  */
 return array(
-	'title'      => __( 'Header with centered logo', 'mcms' ),
+	'title'      => __( 'Header with centered logo', 'mcms-lite' ),
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"backgroundColor":"primary","textColor":"background","layout":{"inherit":true}} -->

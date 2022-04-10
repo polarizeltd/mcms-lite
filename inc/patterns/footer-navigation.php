@@ -3,7 +3,7 @@
  * Footer with navigation and citation
  */
 return array(
-	'title'      => __( 'Footer with navigation and citation', 'mcms' ),
+	'title'      => __( 'Footer with navigation and citation', 'mcms-lite' ),
 	'categories' => array( 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
@@ -16,8 +16,8 @@ return array(
 					<p class="has-text-align-right">' .
 					sprintf(
 						/* Translators: WordPress link. */
-						esc_html__( 'Proudly powered by %s', 'mcms' ),
-												'<a href="' . esc_url( __( 'https://wordpress.org', 'mcms' ) ) . '" rel="nofollow">WordPress</a> & <a href="https://mcms.io/" rel="nofollow">mcms</a>') . '</p>
+						esc_html__( 'Proudly powered by %s', 'mcms-lite' ),
+												'<a href="' . esc_url( __( 'https://wordpress.org', 'mcms-lite' ) ) . '" rel="nofollow">WordPress</a> & <a href="https://mcms.io/" rel="nofollow">mcms</a>') . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',

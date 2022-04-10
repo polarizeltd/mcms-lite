@@ -3,7 +3,7 @@
  * Dark footer wtih title and citation
  */
 return array(
-	'title'      => __( 'Dark footer with title and citation', 'mcms' ),
+	'title'      => __( 'Dark footer with title and citation', 'mcms-lite' ),
 	'categories' => array( 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
@@ -14,8 +14,8 @@ return array(
 					<p class="has-text-align-right">' .
 					sprintf(
 						/* Translators: WordPress link. */
-						esc_html__( 'Proudly powered by %s', 'mcms' ),
-						'<a href="' . esc_url( __( 'https://wordpress.org', 'mcms' ) ) . '" rel="nofollow">WordPress</a> & <a href="https://mcms.io/" rel="nofollow">mcms</a>') . '</p>
+						esc_html__( 'Proudly powered by %s', 'mcms-lite' ),
+						'<a href="' . esc_url( __( 'https://wordpress.org', 'mcms-lite' ) ) . '" rel="nofollow">WordPress</a> & <a href="https://mcms.io/" rel="nofollow">mcms</a>') . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',

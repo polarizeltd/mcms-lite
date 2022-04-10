@@ -14,11 +14,11 @@
  */
 function mcms_register_block_patterns() {
 	$block_pattern_categories = array(
-		'featured' => array( 'label' => __( 'Featured', 'mcms' ) ),
-		'footer'   => array( 'label' => __( 'Footers', 'mcms' ) ),
-		'header'   => array( 'label' => __( 'Headers', 'mcms' ) ),
-		'query'    => array( 'label' => __( 'Query', 'mcms' ) ),
-		'pages'    => array( 'label' => __( 'Pages', 'mcms' ) ),
+		'featured' => array( 'label' => __( 'Featured', 'mcms-lite' ) ),
+		'footer'   => array( 'label' => __( 'Footers', 'mcms-lite' ) ),
+		'header'   => array( 'label' => __( 'Headers', 'mcms-lite' ) ),
+		'query'    => array( 'label' => __( 'Query', 'mcms-lite' ) ),
+		'pages'    => array( 'label' => __( 'Pages', 'mcms-lite' ) ),
 	);
 
 	/**

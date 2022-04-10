@@ -3,7 +3,7 @@
  * Grid of posts with left sidebar block pattern
  */
 return array(
-	'title'      => __( 'Grid of posts with left sidebar', 'mcms' ),
+	'title'      => __( 'Grid of posts with left sidebar', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--small, 1.25rem)"><!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"0px","bottom":"0px"}}}} -->

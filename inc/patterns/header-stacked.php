@@ -3,7 +3,7 @@
  * Logo and navigation header block pattern
  */
 return array(
-	'title'      => __( 'Logo and navigation header', 'mcms' ),
+	'title'      => __( 'Logo and navigation header', 'mcms-lite' ),
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->

@@ -3,7 +3,7 @@
  * Cake Maker Page Demo
  */
 return array(
-	'title'      => __( 'Cake Maker Page Demo', 'mcms' ),
+	'title'      => __( 'Cake Maker Page Demo', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/pink-birthday-cake-with-candles-2021-08-26-22-29-56-utc.jpg","id":1940,"dimRatio":30,"minHeight":920,"isDark":false,"align":"full","className":"is-style-bottom-wave"} -->
     <div class="wp-block-cover alignfull is-light is-style-bottom-wave" style="min-height:920px"><span aria-hidden="true" class="has-background-dim-30 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1940" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/pink-birthday-cake-with-candles-2021-08-26-22-29-56-utc.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:columns -->

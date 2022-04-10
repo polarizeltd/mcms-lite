@@ -3,7 +3,7 @@
  * Blog posts with right sidebar block pattern
  */
 return array(
-	'title'      => __( 'Blog posts with right sidebar', 'mcms' ),
+	'title'      => __( 'Blog posts with right sidebar', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--small, 1.25rem)"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"2rem","top":"0px","right":"0px","left":"0px"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
@@ -55,7 +55,7 @@ return array(
 
 					<!-- wp:column {"width":"33.33%"} -->
 					<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
-					<figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="' . esc_attr__( 'Placeholder image.', 'mcms' ) . '"/></figure>
+					<figure class="wp-block-image size-large"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="' . esc_attr__( 'Placeholder image.', 'mcms-lite' ) . '"/></figure>
 					<!-- /wp:image -->
 
 					<!-- wp:spacer {"height":4} -->
@@ -71,13 +71,13 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:heading {"level":4,"fontSize":"large"} -->
-					<h4 class="has-large-font-size"><em>' . esc_html__( 'Categories', 'mcms' ) . '</em></h4>
+					<h4 class="has-large-font-size"><em>' . esc_html__( 'Categories', 'mcms-lite' ) . '</em></h4>
 					<!-- /wp:heading -->
 
 					<!-- wp:tag-cloud {"taxonomy":"category","showTagCounts":true} /-->
 
 					<!-- wp:heading {"level":4,"fontSize":"large"} -->
-					<h4 class="has-large-font-size"><em>' . esc_html__( 'Tags', 'mcms' ) . '</em></h4>
+					<h4 class="has-large-font-size"><em>' . esc_html__( 'Tags', 'mcms-lite' ) . '</em></h4>
 					<!-- /wp:heading -->
 
 					<!-- wp:tag-cloud {"showTagCounts":true} /--></div>

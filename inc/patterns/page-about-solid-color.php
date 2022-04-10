@@ -3,7 +3,7 @@
  * About page on solid color background
  */
 return array(
-	'title'      => __( 'About page on solid color background', 'mcms' ),
+	'title'      => __( 'About page on solid color background', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"1.25rem","right":"1.25rem","bottom":"1.25rem","left":"1.25rem"}}}} -->
 					<div class="wp-block-group alignfull" style="padding-top:1.25rem;padding-right:1.25rem;padding-bottom:1.25rem;padding-left:1.25rem"><!-- wp:cover {"overlayColor":"secondary","minHeight":80,"minHeightUnit":"vh","isDark":false,"align":"full"} -->
@@ -11,7 +11,7 @@ return array(
 					<div class="wp-block-group"><!-- wp:spacer {"height":64} -->
 					<div style="height:64px" aria-hidden="true" class="wp-block-spacer"></div>
 					<!-- /wp:spacer --><!-- wp:heading {"style":{"typography":{"lineHeight":"1","textTransform":"uppercase","fontSize":"clamp(2.75rem, 6vw, 3.25rem)"}}} -->
-					<h2 id="edvard-smith" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:1;text-transform:uppercase">' . wp_kses_post( __( 'Roland<br>Farkas', 'mcms' ) ) . '</h2>
+					<h2 id="edvard-smith" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:1;text-transform:uppercase">' . wp_kses_post( __( 'Roland<br>Farkas', 'mcms-lite' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:spacer {"height":8} -->
@@ -19,7 +19,7 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:paragraph {"fontSize":"small"} -->
-					<p class="has-small-font-size">' . esc_html__( 'Oh hello. My name’s Roland, and I created this template. If you would like to read the documentation, visit docs.mcms.io or if you would like to take a look at my portfolio website, visit rolandfarkas.com', 'mcms' ) . '</p>
+					<p class="has-small-font-size">' . esc_html__( 'Oh hello. My name’s Roland, and I created this template. If you would like to read the documentation, visit docs.mcms.io or if you would like to take a look at my portfolio website, visit rolandfarkas.com', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:spacer {"height":8} -->

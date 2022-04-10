@@ -3,7 +3,7 @@
  * Default posts block pattern
  */
 return array(
-	'title'      => __( 'Default posts', 'mcms' ),
+	'title'      => __( 'Default posts', 'mcms-lite' ),
 	'categories' => array( 'query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":""},"align":"wide","layout":{"inherit":true}} -->

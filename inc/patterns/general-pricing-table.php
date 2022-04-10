@@ -3,7 +3,7 @@
  * Pricing table block pattern
  */
 return array(
-	'title'      => __( 'Pricing table', 'mcms' ),
+	'title'      => __( 'Pricing table', 'mcms-lite' ),
 	'categories' => array( 'featured', 'columns', 'buttons' ),
 	'content'    => '<!-- wp:columns {"align":"wide"} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column -->
@@ -12,20 +12,20 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--typography--font-size--gigantic, clamp(2.75rem, 6vw, 3.25rem))","lineHeight":"0.5"}}} -->
-					<h2 id="1" style="font-size:var(--wp--custom--typography--font-size--gigantic, clamp(2.75rem, 6vw, 3.25rem));line-height:0.5">' . esc_html( _x( '1', 'First item in a numbered list.', 'mcms' ) ) . '</h2>
+					<h2 id="1" style="font-size:var(--wp--custom--typography--font-size--gigantic, clamp(2.75rem, 6vw, 3.25rem));line-height:0.5">' . esc_html( _x( '1', 'First item in a numbered list.', 'mcms-lite' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-					<h3 class="has-x-large-font-size" id="heading"><em>' . esc_html__( 'Heading', 'mcms' ) . '</em></h3>
+					<h3 class="has-x-large-font-size" id="heading"><em>' . esc_html__( 'Heading', 'mcms-lite' ) . '</em></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>' . esc_html__( 'Aenean hendrerit tincidunt tellus, quis vehicula nibh pharetra ullamcorper. Ut bibendum pharetra metus. Etiam blandit sem vel quam convallis, ultricies suscipit turpis hendrerit. ', 'mcms' ) . '</p>
+					<p>' . esc_html__( 'Aenean hendrerit tincidunt tellus, quis vehicula nibh pharetra ullamcorper. Ut bibendum pharetra metus. Etiam blandit sem vel quam convallis, ultricies suscipit turpis hendrerit. ', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-background-color has-background">' . esc_html__( '$25', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-background-color has-background">' . esc_html__( '$25', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons -->
 
@@ -40,20 +40,20 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2.75rem, 6vw, 3.25rem)","lineHeight":"0.5"}}} -->
-					<h2 id="2" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:0.5">' . esc_html( _x( '2', 'Second item in a numbered list.', 'mcms' ) ) . '</h2>
+					<h2 id="2" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:0.5">' . esc_html( _x( '2', 'Second item in a numbered list.', 'mcms-lite' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"fontSize":"x-large"} -->
-					<h2 class="has-x-large-font-size" id="mcms"><meta charset="utf-8"><em>' . esc_html__( 'mcms', 'mcms' ) . '</em></h2>
+					<h2 class="has-x-large-font-size" id="mcms"><meta charset="utf-8"><em>' . esc_html__( 'mcms-lite', 'mcms-lite' ) . '</em></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>' . esc_html__( 'Aenean hendrerit tincidunt tellus, quis vehicula nibh pharetra ullamcorper. Ut bibendum pharetra metus. Etiam blandit sem vel quam convallis, ultricies suscipit turpis hendrerit. ', 'mcms' ) . '</p>
+					<p>' . esc_html__( 'Aenean hendrerit tincidunt tellus, quis vehicula nibh pharetra ullamcorper. Ut bibendum pharetra metus. Etiam blandit sem vel quam convallis, ultricies suscipit turpis hendrerit. ', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-background-color has-background">' . esc_html__( '$75', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-background-color has-background">' . esc_html__( '$75', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons -->
 
@@ -68,20 +68,20 @@ return array(
 					<!-- /wp:separator -->
 
 					<!-- wp:heading {"style":{"typography":{"fontSize":"clamp(2.75rem, 6vw, 3.25rem)","lineHeight":"0.5"}}} -->
-					<h2 id="3" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:0.5">' . esc_html( _x( '3', 'Third item in a numbered list.', 'mcms' ) ) . '</h2>
+					<h2 id="3" style="font-size:clamp(2.75rem, 6vw, 3.25rem);line-height:0.5">' . esc_html( _x( '3', 'Third item in a numbered list.', 'mcms-lite' ) ) . '</h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:heading {"fontSize":"x-large"} -->
-					<h2 class="has-x-large-font-size" id="wordpress"><meta charset="utf-8"><em>' . esc_html__( 'WordPress', 'mcms' ) . '</em></h2>
+					<h2 class="has-x-large-font-size" id="wordpress"><meta charset="utf-8"><em>' . esc_html__( 'WordPress', 'mcms-lite' ) . '</em></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>' . esc_html__( 'Aenean hendrerit tincidunt tellus, quis vehicula nibh pharetra ullamcorper. Ut bibendum pharetra metus. Etiam blandit sem vel quam convallis, ultricies suscipit turpis hendrerit. v', 'mcms' ) . '</p>
+					<p>' . esc_html__( 'Aenean hendrerit tincidunt tellus, quis vehicula nibh pharetra ullamcorper. Ut bibendum pharetra metus. Etiam blandit sem vel quam convallis, ultricies suscipit turpis hendrerit. v', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"foreground","width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-background-color has-background">' . esc_html__( '$150', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-foreground-background-color has-background">' . esc_html__( '$150', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons -->
 

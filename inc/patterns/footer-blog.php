@@ -3,24 +3,24 @@
  * Blog footer
  */
 return array(
-	'title'      => __( 'Blog footer', 'mcms' ),
+	'title'      => __( 'Blog footer', 'mcms-lite' ),
 	'categories' => array( 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--large, 8rem)","bottom":"var(--wp--custom--spacing--large, 8rem)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:var(--wp--custom--spacing--large, 8rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)"><!-- wp:columns {"align":"wide"} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase">' . esc_html__( 'About us', 'mcms' ) . '</p>
+					<p style="text-transform:uppercase">' . esc_html__( 'About us', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph -->
-					<p>' . esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam nisi, ullamcorper sed sem sit amet, egestas ullamcorper odio. Sed ullamcorper magna ac enim euismod suscipit. In id magna vel ex convallis egestas. Nam enim dui, fringilla quis odio eu, porta facilisis tellus. Ut tincidunt vitae massa sit amet finibus. Curabitur at mattis sem. Aenean eu erat id mauris condimentum consectetur sed sed ligula.', 'mcms' ) . '</p>
+					<p>' . esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras diam nisi, ullamcorper sed sem sit amet, egestas ullamcorper odio. Sed ullamcorper magna ac enim euismod suscipit. In id magna vel ex convallis egestas. Nam enim dui, fringilla quis odio eu, porta facilisis tellus. Ut tincidunt vitae massa sit amet finibus. Curabitur at mattis sem. Aenean eu erat id mauris condimentum consectetur sed sed ligula.', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:column -->
 
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase">' . esc_html__( 'Latest posts', 'mcms' ) . '</p>
+					<p style="text-transform:uppercase">' . esc_html__( 'Latest posts', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:latest-posts /--></div>
@@ -28,7 +28,7 @@ return array(
 
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase">' . esc_html__( 'Categories', 'mcms' ) . '</p>
+					<p style="text-transform:uppercase">' . esc_html__( 'Categories', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:categories /--></div>
@@ -46,8 +46,8 @@ return array(
 					<p class="has-text-align-right">' .
 					sprintf(
 						/* Translators: WordPress link. */
-						esc_html__( 'Proudly powered by %s', 'mcms' ),
-												'<a href="' . esc_url( __( 'https://wordpress.org', 'mcms' ) ) . '" rel="nofollow">WordPress</a> & <a href="https://mcms.io/" rel="nofollow">mcms</a>') . '</p>
+						esc_html__( 'Proudly powered by %s', 'mcms-lite' ),
+												'<a href="' . esc_url( __( 'https://wordpress.org', 'mcms-lite' ) ) . '" rel="nofollow">WordPress</a> & <a href="https://mcms.io/" rel="nofollow">mcms</a>') . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',

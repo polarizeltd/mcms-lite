@@ -3,7 +3,7 @@
  * Poster with right sidebar block pattern
  */
 return array(
-	'title'      => __( 'Poster with right sidebar', 'mcms' ),
+	'title'      => __( 'Poster with right sidebar', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"5%"}}} -->
@@ -11,7 +11,7 @@ return array(
 					<div class="wp-block-column" style="flex-basis:70%">
 
 					<!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"clamp(3rem, 6vw, 4.5rem)"},"spacing":{"margin":{"bottom":"0px"}}}} -->
-				<h1 class="alignwide" style="font-size:clamp(3rem, 6vw, 4.5rem);margin-bottom:0px">' . wp_kses_post( __( '<em>Example</em>, heading for your page', 'mcms' ) ) . '</h1>
+				<h1 class="alignwide" style="font-size:clamp(3rem, 6vw, 4.5rem);margin-bottom:0px">' . wp_kses_post( __( '<em>Example</em>, heading for your page', 'mcms-lite' ) ) . '</h1>
 					<!-- /wp:heading --></div>
 					<!-- /wp:column -->
 
@@ -23,7 +23,7 @@ return array(
 					<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"5%"}}} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column {"width":"70%","style":{"spacing":{"padding":{"bottom":"32px"}}}} -->
 					<div class="wp-block-column" style="padding-bottom:32px;flex-basis:70%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="' . esc_attr__( 'Placeholder image', 'mcms' ) . '"/></figure>
+					<figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="' . esc_attr__( 'Placeholder image', 'mcms-lite' ) . '"/></figure>
 					<!-- /wp:image --></div>
 					<!-- /wp:column -->
 
@@ -32,11 +32,11 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:heading {"level":3,"fontSize":"large"} -->
-					<h3 class="has-large-font-size"><em>' . esc_html__( 'Date', 'mcms' ) . '</em></h3>
+					<h3 class="has-large-font-size"><em>' . esc_html__( 'Date', 'mcms-lite' ) . '</em></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>' . esc_html__( 'February, 22 2022', 'mcms' ) . '</p>
+					<p>' . esc_html__( 'February, 22 2022', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:spacer {"height":16} -->
@@ -44,11 +44,11 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:heading {"level":3,"fontSize":"large"} -->
-					<h3 class="has-large-font-size"><em>' . esc_html__( 'Location', 'mcms' ) . '</em></h3>
+					<h3 class="has-large-font-size"><em>' . esc_html__( 'Location', 'mcms-lite' ) . '</em></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->
-					<p>' . wp_kses_post( __( 'The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345', 'mcms' ) ) . '</p>
+					<p>' . wp_kses_post( __( 'The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345', 'mcms-lite' ) ) . '</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:spacer {"height":16} -->

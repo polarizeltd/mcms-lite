@@ -3,7 +3,7 @@
  * Copywriter Page Demo
  */
 return array(
-	'title'      => __( 'Copywriter Page Demo', 'mcms' ),
+	'title'      => __( 'Copywriter Page Demo', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"white","minHeight":100,"minHeightUnit":"vh","isDark":false,"align":"full"} -->
     <div class="wp-block-cover alignfull is-light" style="min-height:100vh"><span aria-hidden="true" class="has-white-background-color has-background-dim-100 wp-block-cover__gradient-background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full"} -->

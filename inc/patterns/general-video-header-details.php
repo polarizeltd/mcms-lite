@@ -3,12 +3,12 @@
  * Video with header and details block pattern
  */
 return array(
-	'title'      => __( 'Video with header and details', 'mcms' ),
+	'title'      => __( 'Video with header and details', 'mcms-lite' ),
 	'categories' => array( 'featured', 'columns' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--large, 8rem)","bottom":"var(--wp--custom--spacing--large, 8rem)"}},"elements":{"link":{"color":{"text":"var:preset|color|secondary"}}}},"backgroundColor":"foreground","textColor":"secondary"} -->
 					<div class="wp-block-group alignfull has-secondary-color has-foreground-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--custom--spacing--large, 8rem);padding-bottom:var(--wp--custom--spacing--large, 8rem)"><!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"fontSize":"clamp(3rem, 6vw, 4.5rem)"}}} -->
-					<h1 class="alignwide" id="" style="font-size:clamp(3rem, 6vw, 4.5rem)">' . wp_kses_post( __( '<em>mcms</em>, a simple WordPress theme.', 'mcms' ) ) . '</h1>
+					<h1 class="alignwide" id="" style="font-size:clamp(3rem, 6vw, 4.5rem)">' . wp_kses_post( __( '<em>mcms</em>, a simple WordPress theme.', 'mcms-lite' ) ) . '</h1>
 					<!-- /wp:heading -->
 
 					<!-- wp:spacer {"height":32} -->
@@ -26,19 +26,19 @@ return array(
 					<!-- wp:columns {"align":"wide"} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
 					<div class="wp-block-column" style="flex-basis:50%"><!-- wp:paragraph -->
-					<p><strong>' . esc_html__( 'Featuring', 'mcms' ) . '</strong></p>
+					<p><strong>' . esc_html__( 'Featuring', 'mcms-lite' ) . '</strong></p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:column -->
 
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph -->
-					<p>' . wp_kses_post( __( 'Authors', 'mcms' ) ) . '</p>
+					<p>' . wp_kses_post( __( 'Authors', 'mcms-lite' ) ) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:column -->
 
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph -->
-					<p>' . wp_kses_post( __( 'Editors', 'mcms' ) ) . '</p>
+					<p>' . wp_kses_post( __( 'Editors', 'mcms-lite' ) ) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:column --></div>
 					<!-- /wp:columns --></div>

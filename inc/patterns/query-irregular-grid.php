@@ -3,7 +3,7 @@
  * Irregular grid of posts block pattern
  */
 return array(
-	'title'      => __( 'Irregular grid of posts', 'mcms' ),
+	'title'      => __( 'Irregular grid of posts', 'mcms-lite' ),
 	'categories' => array( 'query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:group {"align":"wide"} -->

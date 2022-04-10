@@ -3,12 +3,12 @@
  * Header with image background block pattern
  */
 return array(
-	'title'      => __( 'Header with image background', 'mcms' ),
+	'title'      => __( 'Header with image background', 'mcms-lite' ),
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","dimRatio":0,"focalPoint":{"x":"0.58","y":"0.58"},"minHeight":400,"contentPosition":"center center","align":"full","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--large, 8rem)"}},"color":{}}} -->
-					<div class="wp-block-cover alignfull" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem);min-height:400px"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background" alt="' . esc_attr__( 'Placeholder image ', 'mcms' ) . '" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" style="object-position:58% 58%" data-object-fit="cover" data-object-position="58% 58%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"0rem","top":"0px","right":"0px","left":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","layout":{"type":"flex","justifyContent":"space-between"}} -->
+					<div class="wp-block-cover alignfull" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--large, 8rem);min-height:400px"><span aria-hidden="true" class="has-background-dim-0 wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background" alt="' . esc_attr__( 'Placeholder image ', 'mcms-lite' ) . '" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" style="object-position:58% 58%" data-object-fit="cover" data-object-position="58% 58%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"0rem","top":"0px","right":"0px","left":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","layout":{"type":"flex","justifyContent":"space-between"}} -->
 					<div class="wp-block-group alignwide has-foreground-color has-text-color has-link-color" style="padding-top:0px;padding-right:0px;padding-bottom:0rem;padding-left:0px"><!-- wp:site-title {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
 
 					<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"}} -->

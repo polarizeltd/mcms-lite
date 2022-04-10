@@ -3,7 +3,7 @@
  * About page with large image and buttons
  */
 return array(
-	'title'      => __( 'About page with large image and buttons', 'mcms' ),
+	'title'      => __( 'About page with large image and buttons', 'mcms-lite' ),
 	'categories' => array( 'pages', 'buttons' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var(--wp--custom--spacing--small, 1.25rem)","bottom":"var(--wp--custom--spacing--small, 1.25rem)"}}},"layout":{"inherit":true}} -->
 					<div class="wp-block-group alignfull" style="padding-top:var(--wp--custom--spacing--small, 1.25rem);padding-bottom:var(--wp--custom--spacing--small, 1.25rem)"><!-- wp:image {"align":"wide","sizeSlug":"full","linkDestination":"none"} -->
@@ -14,7 +14,7 @@ return array(
 					<div class="wp-block-columns alignwide"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Purchase my work', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Purchase my work', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -22,7 +22,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Support my studio', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Support my studio', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -30,7 +30,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Take a class', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Take a class', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column --></div>
@@ -40,7 +40,7 @@ return array(
 					<div class="wp-block-columns alignwide"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Read about me', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Read about me', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -48,7 +48,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Learn about my process', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Learn about my process', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column -->
@@ -56,7 +56,7 @@ return array(
 					<!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:buttons -->
 					<div class="wp-block-buttons"><!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Join my mailing list', 'mcms' ) . '</a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link">' . esc_html__( 'Join my mailing list', 'mcms-lite' ) . '</a></div>
 					<!-- /wp:button --></div>
 					<!-- /wp:buttons --></div>
 					<!-- /wp:column --></div>

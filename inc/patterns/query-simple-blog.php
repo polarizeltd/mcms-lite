@@ -3,7 +3,7 @@
  * Simple blog posts block pattern
  */
 return array(
-	'title'      => __( 'Simple blog posts', 'mcms' ),
+	'title'      => __( 'Simple blog posts', 'mcms-lite' ),
 	'categories' => array( 'query' ),
 	'blockTypes' => array( 'core/query' ),
 	'content'    => '<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","categoryIds":[],"tagIds":[],"order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"perPage":10},"layout":{"inherit":true}} -->

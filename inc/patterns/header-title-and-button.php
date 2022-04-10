@@ -3,7 +3,7 @@
  * Title and button header block pattern
  */
 return array(
-	'title'      => __( 'Title and button header', 'mcms' ),
+	'title'      => __( 'Title and button header', 'mcms-lite' ),
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->

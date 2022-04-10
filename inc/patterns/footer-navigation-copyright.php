@@ -3,7 +3,7 @@
  * Footer with navigation and copyright
  */
 return array(
-	'title'      => __( 'Footer with navigation and copyright', 'mcms' ),
+	'title'      => __( 'Footer with navigation and copyright', 'mcms-lite' ),
 	'categories' => array( 'footer' ),
 	'blockTypes' => array( 'core/template-part/footer' ),
 	'content'    => '<!-- wp:group {"align":"full","layout":{"inherit":true}} -->
@@ -17,7 +17,7 @@ return array(
 					<!-- /wp:spacer -->
 
 					<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"16px"}}} -->
-					<p class="has-text-align-center" style="font-size:16px">' . esc_html__( '© Site Title', 'mcms' ) . '</p>
+					<p class="has-text-align-center" style="font-size:16px">' . esc_html__( '© Site Title', 'mcms-lite' ) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:group --></div>
 					<!-- /wp:group -->',

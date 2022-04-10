@@ -3,7 +3,7 @@
  * Small header with dark background block pattern
  */
 return array(
-	'title'      => __( 'Small header with dark background', 'mcms' ),
+	'title'      => __( 'Small header with dark background', 'mcms-lite' ),
 	'categories' => array( 'header' ),
 	'blockTypes' => array( 'core/template-part/header' ),
 	'content'    => '<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|background"}}},"spacing":{"padding":{"top":"0px","bottom":"0px"}}},"backgroundColor":"foreground","textColor":"background","layout":{"inherit":true}} -->
@@ -22,7 +22,7 @@ return array(
 					<!-- /wp:group -->
 
 					<!-- wp:image {"align":"wide","sizeSlug":"full","linkDestination":"none"} -->
-					<figure class="wp-block-image alignwide size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="' . esc_attr__( 'Placeholder image', 'mcms' ) . '"/></figure>
+					<figure class="wp-block-image alignwide size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="' . esc_attr__( 'Placeholder image', 'mcms-lite' ) . '"/></figure>
 					<!-- /wp:image --></div>
 					<!-- /wp:group -->
 					<!-- wp:spacer {"height":66} -->

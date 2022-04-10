@@ -3,7 +3,7 @@
  * Bakery Page Demo
  */
 return array(
-	'title'      => __( 'Bakery Page Demo', 'mcms' ),
+	'title'      => __( 'Bakery Page Demo', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/bakery-in-spain-2021-09-02-05-59-45-utc.jpg","id":1834,"hasParallax":true,"dimRatio":50,"minHeight":100,"minHeightUnit":"vh","customGradient":"linear-gradient(90deg,rgba(255,0,0,0.4) 4%,rgba(0,0,0,0.58) 98%)","contentPosition":"center center","isDark":false,"align":"full","noBottomMargin":true} -->
     <div class="wp-block-cover alignfull is-light has-parallax mb-0" style="background-image:url(http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/bakery-in-spain-2021-09-02-05-59-45-utc.jpg);min-height:100vh"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim has-background-gradient" style="background:linear-gradient(90deg,rgba(255,0,0,0.4) 4%,rgba(0,0,0,0.58) 98%)"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"textColor":"background","layout":{"type":"flex","allowOrientation":false}} -->
