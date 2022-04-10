@@ -104,6 +104,7 @@ function mcms_register_block_patterns() {
 		'page-sidebar-grid-posts',
 		'page-sidebar-blog-posts',
 		'page-sidebar-blog-posts-right',
+		'page-bakery',
 		'query-default',
 		'query-simple-blog',
 		'query-grid',
