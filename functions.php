@@ -96,6 +96,8 @@ function mcms_setup_theme() {
 	'/assets/css/base.css',
 	] );
 
+	// Add AMP support
+	add_theme_support( 'amp' );
 
 	// Add block patterns
 	require get_template_directory() . '/inc/block-patterns.php';
