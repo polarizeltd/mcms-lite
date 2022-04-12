@@ -3,11 +3,11 @@
 Contributors: rolandfarkas, polarizeltd
 Requires at least: 5.3
 Tested up to: 5.9
-Stable tag: 1.0.1
+Stable tag: 1.0.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 GitHub Theme URI: https://github.com/polarizeltd/mcms-lite
-Tags: block-based-themes, full-site-editing, blog, entertainment, news, ftranslation-ready, theme-options, one-column, right-sidebar
+Tags: block-based-themes, full-site-editing, blog, entertainment, news, translation-ready, theme-options, one-column, right-sidebar
 
 mcms Lite is a lightweight block based Gutenberg, FSE and AMP compatible WordPress theme.
 
