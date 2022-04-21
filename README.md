@@ -4,7 +4,8 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![AMP](https://img.shields.io/badge/Amp-000?style=for-the-badge&logo=amp&logoColor=005AF0)
-
+[![Latest Stable Version](https://poser.pugx.org/polarizeltd/mcms-lite/v/stable.png)](https://github.com/polarizeltd/mcms-lite)
+[![Total Downloads](https://poser.pugx.org/polarizeltd/mcms-lite/downloads.png)](https://github.com/polarizeltd/mcms-lite)
 ### About ###
 
 Welcome to the mcms Lite - mcms.io WordPress Theme development repository.
