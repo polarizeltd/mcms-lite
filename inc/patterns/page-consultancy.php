@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Consultancy Page Demo', 'mcms-lite' ),
 	'categories' => array( 'pages' ),
-	'content'    => '<!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/happy-adult-lady-with-red-hair-makes-consultancy-c-2021-10-29-15-40-18-utc.jpg","id":2023,"dimRatio":50,"minHeight":700,"align":"full"} -->
-    <div class="wp-block-cover alignfull" style="min-height:700px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2023" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/happy-adult-lady-with-red-hair-makes-consultancy-c-2021-10-29-15-40-18-utc.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
+	'content'    => '<!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","id":2023,"dimRatio":50,"minHeight":700,"align":"full"} -->
+    <div class="wp-block-cover alignfull" style="min-height:700px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2023" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1} -->
     <h1 class="has-text-align-center">The future of work.</h1>
     <!-- /wp:heading -->
     
@@ -62,8 +62,8 @@ return array(
     
     <!-- wp:columns {"align":"wide","className":"has-text-align-center"} -->
     <div class="wp-block-columns alignwide has-text-align-center"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/man-wearing-smartwatch-in-office-connecting-to-po-2022-01-20-22-52-17-utc.jpg","id":2024,"dimRatio":50,"minHeight":460} -->
-    <div class="wp-block-cover" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2024" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/man-wearing-smartwatch-in-office-connecting-to-po-2022-01-20-22-52-17-utc.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
+    <div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","id":2024,"dimRatio":50,"minHeight":460} -->
+    <div class="wp-block-cover" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2024" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
     <h3>Connected mobility</h3>
     <!-- /wp:heading -->
     
@@ -78,8 +78,8 @@ return array(
     <!-- /wp:column -->
     
     <!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/pharmaceutical-research-2021-09-24-03-47-46-utc.jpg","id":2025,"dimRatio":50,"minHeight":460,"isDark":false} -->
-    <div class="wp-block-cover is-light" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2025" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/pharmaceutical-research-2021-09-24-03-47-46-utc.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
+    <div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","id":2025,"dimRatio":50,"minHeight":460,"isDark":false} -->
+    <div class="wp-block-cover is-light" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2025" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
     <h3>Research</h3>
     <!-- /wp:heading -->
     
@@ -96,8 +96,8 @@ return array(
     
     <!-- wp:columns {"align":"wide","className":"has-text-align-center"} -->
     <div class="wp-block-columns alignwide has-text-align-center"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/programmer-working-about-software-cyberspace-2021-08-27-00-02-50-utc.jpg","id":2026,"dimRatio":50,"minHeight":460} -->
-    <div class="wp-block-cover" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2026" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/programmer-working-about-software-cyberspace-2021-08-27-00-02-50-utc.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
+    <div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","id":2026,"dimRatio":50,"minHeight":460} -->
+    <div class="wp-block-cover" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2026" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
     <h3>Software</h3>
     <!-- /wp:heading -->
     
@@ -112,8 +112,8 @@ return array(
     <!-- /wp:column -->
     
     <!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:cover {"url":"http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/close-up-of-electronic-circuit-board-2021-08-27-17-09-56-utc-1.jpg","id":2030,"dimRatio":50,"minHeight":460} -->
-    <div class="wp-block-cover" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2030" alt="" src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/close-up-of-electronic-circuit-board-2021-08-27-17-09-56-utc-1.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
+    <div class="wp-block-column"><!-- wp:cover {"url":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","id":2030,"dimRatio":50,"minHeight":460} -->
+    <div class="wp-block-cover" style="min-height:460px"><span aria-hidden="true" class="wp-block-cover__gradient-background has-background-dim"></span><img class="wp-block-cover__image-background wp-image-2030" alt="" src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"level":3} -->
     <h3>Electronic</h3>
     <!-- /wp:heading -->
     
@@ -141,7 +141,7 @@ return array(
     <!-- wp:columns {"align":"wide"} -->
     <div class="wp-block-columns alignwide"><!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":2031,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/gps-system-in-a-smart-car-2021-08-30-12-17-53-utc.jpg" alt="" class="wp-image-2031"/><figcaption>Gps system in a smart car</figcaption></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="" class="wp-image-2031"/><figcaption>Gps system in a smart car</figcaption></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -155,7 +155,7 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":2032,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/wireless-connection-technology-in-city-2021-08-29-15-55-17-utc.jpg" alt="" class="wp-image-2032"/><figcaption>Skyscraper night city with connection icons. Smart communication in city.</figcaption></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="" class="wp-image-2032"/><figcaption>Skyscraper night city with connection icons. Smart communication in city.</figcaption></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"level":3,"fontSize":"large"} -->
@@ -169,7 +169,7 @@ return array(
     
     <!-- wp:column -->
     <div class="wp-block-column"><!-- wp:image {"id":2029,"sizeSlug":"full","linkDestination":"none"} -->
-    <figure class="wp-block-image size-full"><img src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/smart-home-control-2021-08-27-21-23-56-utc-1.jpg" alt="" class="wp-image-2029"/><figcaption>Woman using smart home control application on her smartphone to check cameras or set temperature</figcaption></figure>
+    <figure class="wp-block-image size-full"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="" class="wp-image-2029"/><figcaption>Woman using smart home control application on her smartphone to check cameras or set temperature</figcaption></figure>
     <!-- /wp:image -->
     
     <!-- wp:heading {"level":3,"fontSize":"large"} -->

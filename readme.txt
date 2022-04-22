@@ -3,7 +3,7 @@
 Contributors: rolandfarkas, polarizeltd
 Requires at least: 5.3
 Tested up to: 5.9
-Stable tag: 1.1.0
+Stable tag: 1.1.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 GitHub Theme URI: https://github.com/polarizeltd/mcms-lite
@@ -43,9 +43,22 @@ mcms includes support for AMP.
 = 1.0.0 - April 9 2022 =
 * Add default menu bg for when one isn't selected
 
-= 1.0.1 - April 10 2022 =
-* Improve
+= 1.1.0 - April 10 2022 =
+* New Screenshot and little changes
+
+= 1.2.1 - April 10 2022 =
+* 1200x900 pixel screenshot
 
 == Credits ==
 
 * Twenty Twenty-Two https://github.com/WordPress/twentytwentytwo
+
+
+Photo Credits - StockSnap
+=================================================
+
+* https://stocksnap.io/photo/business-team-CZVXLM4SH2 Photo by https://stocksnap.io/author/directmedia Direct Media on https://stocksnap.io StockSnap
+* https://stocksnap.io/photo/modern-building-D3VHTAXIRR Photo by https://stocksnap.io/author/mjmolo Mike Moloney on https://stocksnap.io StockSnap
+* https://stocksnap.io/photo/modern-building-WV3PFTBMUZ Photo by https://stocksnap.io/author/thebuildingenvelope The Building Envelope on https://stocksnap.io StockSnap
+
+=================================================

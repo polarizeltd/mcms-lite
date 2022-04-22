@@ -7,8 +7,8 @@ return array(
 	'categories' => array( 'pages' ),
 	'content'    => '<!-- wp:cover {"overlayColor":"white","minHeight":430,"minHeightUnit":"px","isDark":false,"align":"full"} -->
     <div class="wp-block-cover alignfull is-light" style="min-height:430px"><span aria-hidden="true" class="has-white-background-color has-background-dim-100 wp-block-cover__gradient-background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"full"} -->
-    <div class="wp-block-group alignfull"><!-- wp:media-text {"mediaPosition":"right","mediaId":2014,"mediaLink":"https://demo.mcms.io/career-coach/cute-girl-drinking-coffee-2021-10-30-17-39-13-utc/","mediaType":"image","className":"is-style-tw-shadow"} -->
-    <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-style-tw-shadow"><figure class="wp-block-media-text__media"><img src="http://demo.mcms.io/wp-content/uploads/sites/18/2022/01/cute-girl-drinking-coffee-2021-10-30-17-39-13-utc.jpg" alt="" class="wp-image-2014 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:spacer {"height":"30px"} -->
+    <div class="wp-block-group alignfull"><!-- wp:media-text {"mediaPosition":"right","mediaId":2014,"mediaLink":"' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg","mediaType":"image","className":"is-style-tw-shadow"} -->
+    <div class="wp-block-media-text alignwide has-media-on-the-right is-stacked-on-mobile is-style-tw-shadow"><figure class="wp-block-media-text__media"><img src="' . esc_url( get_template_directory_uri() ) . '/assets/placeholder.jpg" alt="" class="wp-image-2014 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:spacer {"height":"30px"} -->
     <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
     

@@ -33,7 +33,7 @@ return array(
 					<!-- wp:columns {"align":"wide"} -->
 					<div class="wp-block-columns alignwide"><!-- wp:column -->
 					<div class="wp-block-column"><!-- wp:paragraph -->
-					<p>' . wp_kses_post( __( 'Oh hello. My name’s Roland, and I created this template. If you would like to read the documentation, visit docs.mcms.io or if you would like to take a look at my portfolio website, visit rolandfarkas.com', 'mcms-lite' ) ) . '</p>
+					<p>' . wp_kses_post( __( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus mauris, vestibulum sed varius eu, porta sit amet erat. Nulla congue aliquam nunc, eget scelerisque velit.', 'mcms-lite' ) ) . '</p>
 					<!-- /wp:paragraph --></div>
 					<!-- /wp:column -->
 
