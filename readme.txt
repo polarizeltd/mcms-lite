@@ -3,7 +3,7 @@
 Contributors: rolandfarkas, polarizeltd
 Requires at least: 5.3
 Tested up to: 5.9
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 GitHub Theme URI: https://github.com/polarizeltd/mcms-lite
@@ -46,8 +46,11 @@ mcms includes support for AMP.
 = 1.1.0 - April 10 2022 =
 * New Screenshot and little changes
 
-= 1.2.1 - April 10 2022 =
+= 1.1.2 - April 10 2022 =
 * 1200x900 pixel screenshot
+
+= 1.1.3 - April 22 2022 =
+* Updated Patterns and screenshot
 
 == Credits ==
 

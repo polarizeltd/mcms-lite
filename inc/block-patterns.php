@@ -56,7 +56,6 @@ function mcms_register_block_patterns() {
 		'general-divider-light',
 		'general-divider-dark',
 		'header-default',
-		'header-large-dark',
 		'header-logo-navigation-offset-tagline',
 		'header-title-and-button',
 		'header-centered-logo',
