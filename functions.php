@@ -96,6 +96,44 @@ function mcms_setup_theme() {
 	'/assets/css/base.css',
 	] );
 
+	// Register Block Styles
+
+	register_block_style(
+		'core/image',
+		array(
+			'name'         => 'box-shadow',
+			'label'        => __( 'Box Shadow', 'textdomain' ),
+			'inline_style' => '.wp-block-image.is-style-box-shadow { box-shadow:0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1); }',
+		)
+	);
+
+	register_block_style(
+		'core/image',
+		array(
+			'name'         => 'round',
+			'label'        => __( 'Round Edges', 'textdomain' ),
+			'inline_style' => '.wp-block-image.is-style-round { border-radius:5px; }',
+		)
+	);
+
+	register_block_style(
+		'core/video',
+		array(
+			'name'         => 'box-shadow',
+			'label'        => __( 'Box Shadow', 'textdomain' ),
+			'inline_style' => '.wp-block-video.is-style-box-shadow { box-shadow:0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1); }',
+		)
+	);
+
+	register_block_style(
+		'core/video',
+		array(
+			'name'         => 'round',
+			'label'        => __( 'Round Edges', 'textdomain' ),
+			'inline_style' => '.wp-block-video.is-style-round { border-radius:5px; }',
+		)
+	);
+
 	// Add AMP support
 	add_theme_support( 'amp' );
 
