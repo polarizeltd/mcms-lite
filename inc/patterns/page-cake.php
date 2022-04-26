@@ -129,11 +129,6 @@ return array(
     <!-- wp:coblocks/dynamic-separator {"className":"center is-style-fullwidth"} -->
     <hr class="wp-block-coblocks-dynamic-separator center is-style-fullwidth" style="height:50px"/>
     <!-- /wp:coblocks/dynamic-separator -->
-    
-    <!-- wp:jetpack/send-a-message -->
-    <div class="wp-block-jetpack-send-a-message"><!-- wp:jetpack/whatsapp-button {"countryCode":"44GB","align":"center"} -->
-    <div class="wp-block-jetpack-whatsapp-button aligncenter is-color-dark"><a class="whatsapp-block__button" href="https://api.whatsapp.com/send?phone=&amp;text=Hi%2C%20I%20got%20your%20WhatsApp%20information%20from%20your%20website." style="background-color:#25D366;color:#fff" target="_self" rel="noopener noreferrer">Chat on WhatsApp</a></div>
-    <!-- /wp:jetpack/whatsapp-button --></div>
-    <!-- /wp:jetpack/send-a-message --></div></div>
+    </div>
     <!-- /wp:media-text -->',
 );

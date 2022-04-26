@@ -164,9 +164,7 @@ return array(
     <!-- wp:cover {"overlayColor":"white","isDark":false,"align":"wide"} -->
     <div class="wp-block-cover alignwide is-light"><span aria-hidden="true" class="has-white-background-color has-background-dim-100 wp-block-cover__gradient-background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column -->
-    <div class="wp-block-column"><!-- wp:html -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193747.65734576355!2d-74.08508155679834!3d40.645159363485455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20NY%2C%20USA!5e0!3m2!1sen!2suk!4v1642783557621!5m2!1sen!2suk" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <!-- /wp:html --></div>
+    <p>INSERT MAP HERE</p>
     <!-- /wp:column -->
     <!-- wp:column {"textColor":"black"} -->
     <div class="wp-block-column has-black-color has-text-color"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
