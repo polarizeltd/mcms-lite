@@ -164,7 +164,9 @@ return array(
     <!-- wp:cover {"overlayColor":"white","isDark":false,"align":"wide"} -->
     <div class="wp-block-cover alignwide is-light"><span aria-hidden="true" class="has-white-background-color has-background-dim-100 wp-block-cover__gradient-background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:columns -->
     <div class="wp-block-columns"><!-- wp:column -->
-    <p>INSERT MAP HERE</p>
+    <!-- wp:paragraph -->
+    <p>Insert Map Here</p>
+    <!-- /wp:paragraph -->
     <!-- /wp:column -->
     <!-- wp:column {"textColor":"black"} -->
     <div class="wp-block-column has-black-color has-text-color"><!-- wp:group {"layout":{"type":"flex","allowOrientation":false}} -->
@@ -178,12 +180,10 @@ return array(
     <!-- wp:heading -->
     <h2><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-black-color">Contact Us</mark></h2>
     <!-- /wp:heading -->
-    <!-- wp:jetpack/contact-form {"subject":"[mcms Demos - mcms.io] Bakery","to":"hello@mcms.io"} -->
-    <div class="wp-block-jetpack-contact-form"><!-- wp:jetpack/field-name {"required":true} /-->
-    <!-- wp:jetpack/field-email {"required":true} /-->
-    <!-- wp:jetpack/field-textarea /-->
-    <!-- wp:jetpack/button {"element":"button","text":"Contact Us","textColor":"foreground","customBackgroundColor":"#f8f4e4","borderRadius":0,"width":"100%","align":"center","className":"is-style-fill"} /--></div>
-    <!-- /wp:jetpack/contact-form --></div>
+    <!-- wp:paragraph -->
+    <p>Insert Form Here</p>
+    <!-- /wp:paragraph -->
+    </div>
     <!-- /wp:column --></div>
     <!-- /wp:columns --></div></div>
     <!-- /wp:cover -->',
