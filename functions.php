@@ -102,7 +102,7 @@ function mcms_setup_theme() {
 		'core/image',
 		array(
 			'name'         => 'box-shadow',
-			'label'        => __( 'Box Shadow', 'textdomain' ),
+			'label'        => __( 'Box Shadow', 'mcms-lite' ),
 			'inline_style' => '.wp-block-image.is-style-box-shadow { box-shadow:0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1); }',
 		)
 	);
@@ -111,7 +111,7 @@ function mcms_setup_theme() {
 		'core/image',
 		array(
 			'name'         => 'round',
-			'label'        => __( 'Round Edges', 'textdomain' ),
+			'label'        => __( 'Round Edges', 'mcms-lite' ),
 			'inline_style' => '.wp-block-image.is-style-round { border-radius:5px; }',
 		)
 	);
@@ -120,7 +120,7 @@ function mcms_setup_theme() {
 		'core/video',
 		array(
 			'name'         => 'box-shadow',
-			'label'        => __( 'Box Shadow', 'textdomain' ),
+			'label'        => __( 'Box Shadow', 'mcms-lite' ),
 			'inline_style' => '.wp-block-video.is-style-box-shadow { box-shadow:0 20px 25px -5px rgb(0 0 0/0.1),0 8px 10px -6px rgb(0 0 0/0.1); }',
 		)
 	);
@@ -129,7 +129,7 @@ function mcms_setup_theme() {
 		'core/video',
 		array(
 			'name'         => 'round',
-			'label'        => __( 'Round Edges', 'textdomain' ),
+			'label'        => __( 'Round Edges', 'mcms-lite' ),
 			'inline_style' => '.wp-block-video.is-style-round { border-radius:5px; }',
 		)
 	);
