@@ -3,20 +3,21 @@ Theme Name: mcms Lite
 Theme URI: https://mcms.io
 Author: Roland Farkas @ Polarize Ltd
 Author URI: https://www.polarize.ltd
-Description: Block Based Theme.
+Description: mcms is a lightweight block based Gutenberg, FSE and AMP compatible WordPress theme.
 Requires at least: 5.3
 Tested up to: 5.9
 Requires PHP: 5.6
-Version: 1.1.6
+Version: 1.1.7
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: mcms-lite
-Tags: block-based-themes, full-site-editing, blog, entertainment, news, translation-ready, theme-options, one-column, right-sidebar
+Tags: block-based-themes, full-site-editing, entertainment, theme-options, blog, news, portfolio, grid-layout, one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+mcms Lite, © Copyright 2022 Roland Farkas | Polarize.ltd
+mcms Lite is distributed under the terms of the GNU GPL
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
-
-mcms Lite, Copyright 2022 Roland Farkas | Polarize.ltd
 
 mcms Lite is based on the Twenty Twenty-Two WordPress Theme, (C) 2021 WordPress.org
 
@@ -31,6 +32,5 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+along with this program. If not, see <https://www.gnu.org/licenses/>.
 */

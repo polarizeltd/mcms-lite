@@ -10,7 +10,7 @@
 if (!defined('mcms_VERSION'))
 {
     // Replace the version number of the theme on each release.
-    define('mcms_VERSION', '1.1.6');
+    define('mcms_VERSION', '1.1.7');
 }
 
 /**
