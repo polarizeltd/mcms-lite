@@ -1,7 +1,7 @@
 <?php
 /**
  * Header text with 2x CTA buttons and image
-
+ * - https://wordpress.org/patterns/pattern/header-text-with-2x-cta-buttons-and-image/
  */
 return array(
 	'title'      => __( 'Header text with 2x CTA buttons and image', 'mcms-lite' ),
