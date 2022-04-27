@@ -60,6 +60,7 @@ function mcms_register_block_patterns() {
 		'header-title-and-button',
 		'header-centered-logo',
 		'header-centered-title-navigation-social',
+		'header-text-with-two-cta-buttons-and-image',
 		'hidden-404',
 		'hidden-heading-and-image',
 		'page-layout-two-columns',
