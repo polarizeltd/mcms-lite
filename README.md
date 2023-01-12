@@ -12,6 +12,8 @@ Welcome to the mcms Lite - mcms.io WordPress Theme development repository.
 
 mcms Lite is a lightweight block based Gutenberg, FSE and AMP compatible WordPress theme.
 
+[Download Free Here](https://wordpress.org/themes/mcms-lite/)
+
 ### Contributing ###
 
 If you would like to contribute code, the list of [open issues](https://github.com/polarizeltd/mcms-lite/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/polarizeltd/mcms-lite/pulls) are preferred when linked to an existing issue.
