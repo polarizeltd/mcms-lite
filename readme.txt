@@ -2,7 +2,7 @@
 
 Contributors: rolandfarkas, polarizeltd
 Requires at least: 5.9
-Tested up to: 6.0
+Tested up to: 6.4.2
 Stable tag: 1.1.7
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -36,7 +36,11 @@ The clean, fast, standards-compliant code ensures mcms is Search Engine Optimize
 
 = Does this theme support any plugins? =
 
-mcms includes support for AMP.
+mcms includes support for;
+AMP
+Yoast SEO
+Google Site Kit
+and many more!
 
 == Changelog ==
 
