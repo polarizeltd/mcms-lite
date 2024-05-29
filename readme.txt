@@ -2,8 +2,8 @@
 
 Contributors: rolandfarkas, polarizeltd
 Requires at least: 5.9
-Tested up to: 6.4.2
-Stable tag: 1.2
+Tested up to: 6.5.3
+Stable tag: 1.2.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 GitHub Theme URI: https://github.com/polarizeltd/mcms-lite

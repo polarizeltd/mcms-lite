@@ -87,6 +87,8 @@ function mcms_register_block_patterns() {
 		'query-image-grid',
 		'query-large-titles',
 		'query-irregular-grid',
+		'paragraph-with-heading',
+		'cta-button',
 	);
 
 	/**
