@@ -35,10 +35,6 @@ To get started with development:
 - PHP 5.6+
 - License: [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html) or later
 
-## Demo Site
-
-[demo.mcms.io](https://demo.mcms.io)
-
 ## Credits
 
 - [Twenty Twenty-Two ](https://github.com/WordPress/twentytwentytwo/)
